@@ -1,0 +1,96 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Environment variables and sensitive files
+.env
+.flaskenv
+instance/ # For Flask, though not directly FastAPI, good to include if common patterns are used.
+*.log
+local_settings.py # For Django-like local settings, good to include as a general practice.
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# IDE specific files
+.vscode/
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Operating System files
+.DS_Store # macOS
+Thumbs.db # Windows
+desktop.ini # Windows
+
+# Jupyter Notebook files (if you use them for testing or documentation)
+.ipynb_checkpoints/
+
+# Database files (if using SQLite for development)
+*.sqlite3
+*.db
+*.db-journal
+
+# Compiled assets (if you have frontend compilation)
+/static/dist/
+/static/build/
+
+# Docker-related files (if you're using Docker)
+.dockerignore
+!Dockerfile
+!docker-compose.yml
+# Exclude specific Docker build contexts if needed
+# docker_build_context/
+
+# Other potentially generated files
+logs/
+tmp/

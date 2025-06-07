@@ -1,11 +1,14 @@
-import { Button } from "@/components/ui/button"
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import ImageRecognition from './pages/ImageRecognition';
 
 function App() {
-  return (
-    <div className="flex min-h-svh flex-col items-center justify-center">
-      <Button>Click me</Button>
-    </div>
-  )
+	return (
+		<Router>
+			<Routes>
+				<Route path="/" element={<ImageRecognition />} />
+			</Routes>
+		</Router>
+	);
 }
 
-export default App
+export default App;
